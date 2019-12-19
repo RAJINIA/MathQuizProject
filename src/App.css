@@ -1,22 +1,505 @@
-.App {
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: orange;
+  }
+  
+  nav {
+    width: 100%;
+    height: 60px;
+    background-color:white; 
+  }
+  
+  nav p{
+    font-size: arial;
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 55px;
+    color: darkgreen;
+    padding: 0px 20px;
+  }
+  
+  nav ul {
+    float: left;
+  }
+  
+  nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+  }
+  
+  nav ul li a{
+    display: block;
+    font-family: Arial;
+    color: blue;
+    font-size: 20px;
+    padding: 22px 14px;
+    text-decoration: none;
+  }
+  
+  nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  nav ul li:hover ul {
+    display: block;
+  }
+  
+  nav ul li ul li {
+    width: 150px;
+    border-radius: 4px;
+  }
+  
+  nav ul li ul li a{
+    padding: 8px 14px;
+  }
+  
+  nav ul li ul li a:hover{
+    background-color: gray;
+  }
+
+  //HOME PAGE
+  .home-container {
+    width: 100%
+  }
+
+  .content{
+      width: 100%;
+      height: 600px;;
+      float: left;
+      background-color: orange;
+  }
+
+ .home-header h1 {
+     color: purple;
+     font-weight: bold;
+     padding: 10px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     text-align: center;   
+ }
+
+ .home-content p{
+     text-align: justify;
+     color: black;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 10px;
+ }
+
+ .image{
+     width: 50%;
+     height: 600px;
+}
+
+.activity-header h1{
+    color: purple;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.activity-header p{
+    margin: 20px;
+    padding: 5px;
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.table-content{
+  width: 600px;
+  padding: 20px;
+}
+
+.table-content td{
+  padding: 10px;
+}
+
+.table-content button {
+  color: black;
+  background-color: white;
+  border-color: gray;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+.table-content td label{
+  color: blue;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Addition label {
+    color: blue;
+    padding: 20px;
+    font: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Subtraction label {
+    color: blue;
+    padding: 20px;
+    font: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Multiplication label {
+    color: blue;
+    padding: 20px;
+    font: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Addition option {
+    padding: 20px;
+}
+
+.header h1{
+  color: purple;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.header p{
+  margin: 20px;
+  padding: 5px;
+  text-align: justify;
+  color: black;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.App-header {
+.quiz10 h1{
+  color: green;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quiz10 button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  float: inline-end;
+}
+
+.quiz10 p {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: maroon;
+  font-weight: bold;
+}
+
+.quiz15 h1{
+  color: green;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quiz15 button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+  float: inline-end;
+  font-weight: bold;
+}
+
+.quiz15 p {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: maroon;
+  font-weight: bold;
+}
+
+.quiz20 h1{
+  color: green;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quiz20 button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+  float: inline-end;
+  font-weight: bold;
+}
+
+.quiz20 p {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: maroon;
+  font-weight: bold;
+}
+
+.quiz10 a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: green;
+  padding: 5px 20px;
+  border-radius: 10px;
+  float: right;
+}
+
+
+.body {
+  padding: 50px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.quiz {
+  width: 800px;
+  max-width: 50%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.start-btn button{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+}
+.start-btn button:hover {
+  border-color: black;
+}
+.next-btn button{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+}
+.next-btn button:hover {
+  border-color: black;
+}
+.quiz button {
+  padding: 15px;
+  display: grid;
+  background-color: skyblue;
+  border-radius: 5px;
+  gap: 50px;
+  outline: none;
+}
+
+.quiz button:hover {
+  border-color: black;
+}
+
+.container {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  min-width: 100vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 25px;
   color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #09d3ac;
+h1, h2 {
+  margin: 10px;
 }
+
+.answer {
+  border: 1px solid white;
+  padding: 5px 10px 5px 45px;
+  width: 610px;
+  text-align: left;
+  margin-top: 10px;
+  position: relative;
+  font-size: 22px;
+  cursor: pointer;
+  transition: ease-in-out, width .35s ease-in-out;
+}
+
+.answer .selected {
+  color: #c8ffbb;
+  background-color: #c8ffbb;
+}
+
+.answer:hover {
+  color: #4f4c4c;
+  background-color: #c8ffbb;
+}
+
+ .answer:focus{
+   outline: none;
+ }
+
+ .results span.correct {
+   color: #c8ffbb;
+ }
+
+ .results span.failed {
+  color:#f27c7c;
+}
+
+.error {
+  color: #f27c7c;
+}
+
+.letter{
+  color: #4f4c4c;
+  width: 30px;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  height: 30px;
+  top: 0;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.btn {
+  color: #4f4c4c;
+  background-color: #f4f4f4;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: lightsalmon;
+}
+
+.feedback form {
+  padding: 20px;
+}
+
+.feedback h1 {
+  text-align: center;
+  color: purple;
+}
+
+.feedback label {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.feedback input[type=radio]{
+  display: inline;
+}
+
+.feedback input,
+.feedback textarea {
+  width: 100%;
+  height: 25px;
+  border: 0;
+  border-radius: 4px;
+}
+
+.feedback h3{
+  padding: 10px;
+}
+
+.feedback a{
+  color: red;
+  background-color: #c8ffbb;
+  border-radius: 4px;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  float: right;
+}
+
+.thankyou{
+  background-color: white;
+}
+.thankyou h3 {
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 30px;
+  margin: 20px;
+  font-size: 50px;
+  color: purple;
+  float: right;
+}
+
+.thankyou img {
+  width: 50vw;
+  height: 40vw;
+  
+}
+
+.contact-container h3{
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding: 30px;
+  margin: 20px;
+  font-size: 40px;
+  color: purple;
+}
+
+.contact-container p{
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 30px;
+  margin: 20px;
+  font-size: 25px;
+  color: black;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
