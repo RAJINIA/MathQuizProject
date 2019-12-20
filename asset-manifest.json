@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/RAJINIA/MathQuizProject.git/static/css/main.ed79a639.chunk.css",
-    "main.js": "/RAJINIA/MathQuizProject.git/static/js/main.822a5fd7.chunk.js",
-    "main.js.map": "/RAJINIA/MathQuizProject.git/static/js/main.822a5fd7.chunk.js.map",
-    "runtime-main.js": "/RAJINIA/MathQuizProject.git/static/js/runtime-main.58b15e38.js",
-    "runtime-main.js.map": "/RAJINIA/MathQuizProject.git/static/js/runtime-main.58b15e38.js.map",
-    "static/js/2.5ed61795.chunk.js": "/RAJINIA/MathQuizProject.git/static/js/2.5ed61795.chunk.js",
-    "static/js/2.5ed61795.chunk.js.map": "/RAJINIA/MathQuizProject.git/static/js/2.5ed61795.chunk.js.map",
-    "index.html": "/RAJINIA/MathQuizProject.git/index.html",
-    "precache-manifest.ba60b260ff79fe8d39840f7fe48b902a.js": "/RAJINIA/MathQuizProject.git/precache-manifest.ba60b260ff79fe8d39840f7fe48b902a.js",
-    "service-worker.js": "/RAJINIA/MathQuizProject.git/service-worker.js",
-    "static/css/main.ed79a639.chunk.css.map": "/RAJINIA/MathQuizProject.git/static/css/main.ed79a639.chunk.css.map",
-    "static/media/pic3.png": "/RAJINIA/MathQuizProject.git/static/media/pic3.eb0a95b9.png",
-    "static/media/thankyou.jpg": "/RAJINIA/MathQuizProject.git/static/media/thankyou.d43a3597.jpg"
+    "main.css": "/MathQuizProject/static/css/main.ed79a639.chunk.css",
+    "main.js": "/MathQuizProject/static/js/main.4ab8a06a.chunk.js",
+    "main.js.map": "/MathQuizProject/static/js/main.4ab8a06a.chunk.js.map",
+    "runtime-main.js": "/MathQuizProject/static/js/runtime-main.a3afd5d8.js",
+    "runtime-main.js.map": "/MathQuizProject/static/js/runtime-main.a3afd5d8.js.map",
+    "static/js/2.5ed61795.chunk.js": "/MathQuizProject/static/js/2.5ed61795.chunk.js",
+    "static/js/2.5ed61795.chunk.js.map": "/MathQuizProject/static/js/2.5ed61795.chunk.js.map",
+    "index.html": "/MathQuizProject/index.html",
+    "precache-manifest.972963b93ca49941f063965e673e60a2.js": "/MathQuizProject/precache-manifest.972963b93ca49941f063965e673e60a2.js",
+    "service-worker.js": "/MathQuizProject/service-worker.js",
+    "static/css/main.ed79a639.chunk.css.map": "/MathQuizProject/static/css/main.ed79a639.chunk.css.map",
+    "static/media/pic3.png": "/MathQuizProject/static/media/pic3.eb0a95b9.png",
+    "static/media/thankyou.jpg": "/MathQuizProject/static/media/thankyou.d43a3597.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.58b15e38.js",
+    "static/js/runtime-main.a3afd5d8.js",
     "static/js/2.5ed61795.chunk.js",
     "static/css/main.ed79a639.chunk.css",
-    "static/js/main.822a5fd7.chunk.js"
+    "static/js/main.4ab8a06a.chunk.js"
   ]
 }
